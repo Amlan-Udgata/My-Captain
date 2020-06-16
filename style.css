@@ -1,0 +1,22 @@
+.wrapper h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.box{
+    padding: 10px;
+}
+
+.box:hover{
+    opacity: 0.4;
+    transition: 1s;
+}
